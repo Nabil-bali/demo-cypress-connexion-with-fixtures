@@ -1,0 +1,11 @@
+{
+    "baseUrl" : "https://demoqa.com",
+    "env" : {
+        "url" : "https://www.w3schools.com/",
+        "urlVianavigo" : "https://www.vianavigo.com/accueil"
+    },
+    "chromeWebSecurity": false,
+    "ensureScrollable": false,
+    "ignoreTestFiles" : ["**/examples/*", "**/partie1/*", "**/partie2/*", "**/partie3/*" ],
+    "retries" : { "runMode": 1, "openMode": 1 }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "formationcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:headed": "cypress run --headed",
+    "cypress:open": "cypress open",
+    "cypress:verify": "cypress verify",
+    "cypress:version": "cypress version",
+    "cypress:info": "cypress info",
+    "cypress:cache:list": "cypress cache list",
+    "list-videos": "ls -l cypress/videos",
+    "check-videos": "ok-file 'cypress/videos/*.mp4'",
+    "set-status": "set-status"
+  },
+  "author": "Nabil-bali",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.4.0",
+    "cypress": "^6.2.1",
+    "cypress-file-upload": "^5.0.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
